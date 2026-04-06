@@ -20,15 +20,15 @@ INSERT INTO categories (name, description) VALUES
 -- ============================================================
 INSERT INTO users (username, email, password_hash, role) VALUES
   ('sarah_admin',
-   'sarah@engmart.co.uk',
+   'admin@example.com',
    '$2b$12$K1Lnvb/dq6T6s9x7c5Y7E.YGT8fDnN0EvDJb.aBcWxPbRsTv0BmPm',
    'admin'),
   ('james_staff',
-   'james@engmart.co.uk',
+   'staff1@example.com',
    '$2b$12$K1Lnvb/dq6T6s9x7c5Y7E.YGT8fDnN0EvDJb.aBcWxPbRsTv0BmPm',
    'staff'),
   ('amara_staff',
-   'amara@engmart.co.uk',
+   'staff2@example.com',
    '$2b$12$K1Lnvb/dq6T6s9x7c5Y7E.YGT8fDnN0EvDJb.aBcWxPbRsTv0BmPm',
    'staff');
 
