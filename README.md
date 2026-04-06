@@ -152,9 +152,9 @@ npm start
 
 | Role  | Email                    | Password      |
 |-------|--------------------------|---------------|
-| Admin | sarah@engmart.co.uk      | Password123!  |
-| Staff | james@engmart.co.uk      | Password123!  |
-| Staff | amara@engmart.co.uk      | Password123!  |
+| Admin | [redacted] | [redacted] |
+| Staff | [redacted] | [redacted] |
+| Staff | [redacted] | [redacted] |
 
 > **Note:** The seed data passwords use a placeholder hash. To create working logins, register via the API (see below) or use the register endpoint to create your own admin user.
 
@@ -164,9 +164,9 @@ npm start
 curl -X POST http://localhost:5000/api/auth/register \
   -H "Content-Type: application/json" \
   -d '{
-    "username": "sarah",
-    "email": "sarah@engmart.co.uk",
-    "password": "Password123!",
+    "username": "your-username",
+    "email": "your-email@example.com",
+    "password": "your-password",
     "role": "admin"
   }'
 ```
