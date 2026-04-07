@@ -59,7 +59,7 @@ function AppRoutes() {
       <Route path="/reports" element={
         <ProtectedRoute adminOnly><AppLayout><ReportsPage /></AppLayout></ProtectedRoute>
       } />
-
+<Route path="/" element={<Navigate to="/login" replace />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );
